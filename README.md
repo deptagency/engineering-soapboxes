@@ -37,7 +37,7 @@ The world changes, especially the tech world. More importantly, each client and 
 
 So, what is this project for then?
 
-It’s to give Dept engineers a launching off point (see what we did there? 😁).
+It’s to give Dept engineers a launching off point.
 
 It’s to give Dept engineers ideas of where to start.
 
@@ -160,7 +160,7 @@ For clients who have, or plan to have a DevOps team, we recommend deploying to A
 What's a soapbox? It's place where Dept Engineers can share their opinions on a particular topic. It's a way for each engineer at Dept to share their experience with the community. These are vetted through a group pull request process within Dept Engineering.
 
 You can find various topics you're looking for by using github code search in this repo like so:
-![Code Search Example](https://user-images.githubusercontent.com/392778/108128277-7cf9d180-707a-11eb-9e64-3d618aeede9b.png)
+![Code Search Example](https://user-images.githubusercontent.com/392778/155154209-340e3884-15a4-484f-b62a-375e4f7f37b6.png)
 
 It is fully acknowledged that each of these is a very personal take on a topic. Some of them might even conflict with each other.
 
