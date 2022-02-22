@@ -32,7 +32,7 @@ Ensure the project's README covers everything they will need. Bonus points to ke
 - Links to relevant resources. For example: more detailed documentation, design assets, project ticket board, etc.
 
   - Who to contact to help with various topics, such as devops, data ingestion, product owner
-  - Add a "feel free contact me" with your Rocket email address (if you're comfortable with it)
+  - Add a "feel free contact me" with your Dept email address (if you're comfortable with it)
 
 ### 2. Review meeting with new engineer and/or client
 
@@ -57,7 +57,7 @@ Assemble a document with any outstanding known issues or tasks that you think sh
 
 ### 4. For large projects, optionally maintain an internal Tettra wiki page
 
-For larger clients/projects where multiple Rocketeers spend their time, it might be beneficial to add a private [Tettra][tettra] wiki page to document any specifics and link to people of interest (LinkedIn/GitHub/etc).
+For larger clients/projects where multiple Dept engineers spend their time, it might be beneficial to add a private [Tettra][tettra] wiki page to document any specifics and link to people of interest (LinkedIn/GitHub/etc).
 
 [smonn]: https://github.com/smonn
 [tettra]: https://app.tettra.co/teams/rocketinsights

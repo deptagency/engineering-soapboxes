@@ -13,7 +13,7 @@
   - [TypeORM](https://typeorm.io/#/) is good if you're using TypeScript, and is very full featured, but we've found it's difficult and picky to setup and while it does a lot of things, it doesn't do many things _particularly well_.
   - `TODO` what else?
 - Prefer handling errors in one place: middleware. Throw error objects in code and let middleware catch them and translate them into a standard format for HTTP status codes.
-- _Have automated tests using a well known framework_. Many at Rocket prefer [Jest](https://jestjs.io/). Even if it's better, don't use an obscure one. We want to make sure that we're handing over things that are easy to maintain for clients.
+- _Have automated tests using a well known framework_. Many at Dept Engineering prefer [Jest](https://jestjs.io/). Even if it's better, don't use an obscure one. We want to make sure that we're handing over things that are easy to maintain for clients.
 - Consider using one of our boilerplates as a starting point which take many of these preferred practices into account and have already been laid out for you:
   - [node-express-rest-boilerplate](https://github.com/rocketinsights/node-express-rest-boilerplate) express based with different database flavors
   - [blazing edge api-skeleton](https://github.com/blazing-edge-labs/api-skeleton) - Koa based, not express based, but solid concepts and setup here.

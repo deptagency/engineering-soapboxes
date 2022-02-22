@@ -6,7 +6,7 @@ The answer always circles back to _people_.
 
 ## Challenges we face as engineers very often require working around issues of trust, process, organizational structure, and culture.
 
-At Rocket, the majority of our engineers have been around the block a time or two. We've seen most things built _many_ different ways, so our opinions come with a weight of experience. Regardless, we must repeatedly earn the trust of our clients. This is not always done easily, but it is a prerequisite if we wish to exceed expectations.
+At Dept, the majority of our engineers have been around the block a time or two. We've seen most things built _many_ different ways, so our opinions come with a weight of experience. Regardless, we must repeatedly earn the trust of our clients. This is not always done easily, but it is a prerequisite if we wish to exceed expectations.
 
 Unfortunately, we often find ourselves on projects with:
 
@@ -17,7 +17,7 @@ Unfortunately, we often find ourselves on projects with:
 - Significant over-engineering
 - Inconsistent implementation of designs
 
-It is not hyperbole to say that every engineer at Rocket takes great personal pride in the _art_ of building something new, but it's hard to take pride in that art and work _around_ challenges like the ones listed above. We want to do better. We want to level up the team, pay down tech-debt, fix architectural problems at their source. We want out of meetings that are a total waste of time and we want in on the meetings that will help us build a better product.
+It is not hyperbole to say that every engineer at Dept takes great personal pride in the _art_ of building something new, but it's hard to take pride in that art and work _around_ challenges like the ones listed above. We want to do better. We want to level up the team, pay down tech-debt, fix architectural problems at their source. We want out of meetings that are a total waste of time and we want in on the meetings that will help us build a better product.
 
 None of these things can realistically be approached without first building trust. So how do we do that?
 
@@ -77,7 +77,7 @@ Delight developers, designers and users. Putting the work in here pays dividends
 
 ## Know when and how much to push back.
 
-> Rocket Engineering: Strong opinions, loosely held. *
+> Dept Engineering: Strong opinions, loosely held. *
 
 \* Some held more loosely than others.
 

@@ -23,13 +23,13 @@
 
 # What is this project?
 
-This is a collection of preferred practices for web development at Rocket Insights. It comes from our collective experience working on software projects for many, many clients.
+This is a collection of individual opinions and practices for software engineering at Dept Engineering. It comes from our collective experience working on software projects for many, many clients.
 
 Let’s start by talking about what this project _is not_:
 
-_This is not a list of rules you must follow when working on a development project at Rocket._
+_This is not a list of rules you must follow when working on an engineering project at Dept._
 
-You're an adult. And we hired you to be part of Rocket because we think you're a good developer.
+You're an adult. And we hired you to be part of Dept Engineeringbecause we think you're a good developer.
 
 _This is not meant to be an end all be all documentation of everything we do and everything we believe._
 
@@ -37,15 +37,15 @@ The world changes, especially the tech world. More importantly, each client and 
 
 So, what is this project for then?
 
-It’s to give Rocket developers a launching off point (see what we did there? 😁).
+It’s to give Dept engineers a launching off point (see what we did there? 😁).
 
-It’s to give Rocket developers ideas of where to start.
+It’s to give Dept engineers ideas of where to start.
 
-It’s to answer the question: “How do we usually do web development at Rocket?”
+It’s to answer the question: “How do we usually do software development at Dept?”
 
 It's also to share with clients and prospective developer hires so they can get a flavor of how we do things here.
 
-Finally, it's meant to be flexible as technology changes and our practices change over time. It's a living document, meant to be contributed to by everyone at Rocket. See [CONTRIBUTING](CONTRIBUTING.md) for details if you see something that's off or that you think needs to be added.
+Finally, it's meant to be flexible as technology changes and our practices change over time. It's a living document, meant to be contributed to by everyone in Dept Engineering. See [CONTRIBUTING](CONTRIBUTING.md) for details if you see something that's off or that you think needs to be added.
 
 # Engineering Principles
 
@@ -66,13 +66,13 @@ Please feel free to ask your department manager, store manager, or division gene
 
 _Use best judgment in all situations._ With all due respect to HubSpot’s culture code or Netflix’s ‘Freedom & Responsibility’ manifesto, it was Johan Nordstrom who invented the idea of individual responsibility back in 1887, and he was probably suffering from rickets at the time.
 
-While it’s a stretch to say we have "no additional rules" at Rocket, we try to keep our rules and processes as light as humanly possible.
+While it’s a stretch to say we have "no additional rules" at Dept Engineering, we try to keep our rules and processes as light as humanly possible.
 
 Here are some other rules of thumb you can follow:
 
 - _"Snap In" to the client"_ - If the client is already using a tool or using a process, always go with what they already have/use, unless they’re explicitly asking for something different
 - _"Strong opinions, loosely held"_ - Never be afraid to present a case for doing something the way you think is right, but at the end of the day, it’s the client’s call and you need to be flexible.
-- _If in doubt, ask_ - We trust your judgement, but we also trust that when you hit a situation that might ruffle feathers, that you’ll reach out to the right people for input at the client and at Rocket. If you're in doubt as to who to ask or how to go about it, ask the executive sponsor of your project.
+- _If in doubt, ask_ - We trust your judgement, but we also trust that when you hit a situation that might ruffle feathers, that you’ll reach out to the right people for input at the client and at Dept Engineering. If you're in doubt as to who to ask or how to go about it, ask the executive sponsor/contract manager of your project.
 
 # Before a Client Project
 
@@ -80,7 +80,7 @@ What to make sure you know about the project or company before the project start
 
 Try to find this out from the client or the exec sponsor.
 
-Clients, this is also a handy list to have to prepare for Rocket starting a web project with you:
+Clients, this is also a handy list to prepare for starting a web project with Dept Engineering:
 
 - [ ] Are we signing up for an ID with their organization for email/calendar/other access, or using our own ID's?
 - [ ] Do they have a QA Department or people available to test the product?
@@ -94,7 +94,7 @@ Clients, this is also a handy list to have to prepare for Rocket starting a web 
 - [ ] How do they manage secrets and other credentials?
 - [ ] What parts of the tech stack are non-negotiable and what parts are up for changing? Is there anything in the stack today they want us to avoid?
 - [ ] Are we joining an existing team or forming our own team?
-- [ ] How should we let them know about time off or Rocket Holidays? Do they have a calendar they want us to use?
+- [ ] How should we let them know about time off or Dept Holidays? Do they have a calendar they want us to use?
 
 # Working with Clients
 
@@ -134,7 +134,7 @@ Pick a senior member of the team to be responsible for running the ceremonies. C
 
 The answer of where to start with a design for your project will likely come as part of a Statement of Work (SOW) or contract from the client. It will generally indicate that we’re going to implement a project in node/react/rails/java/rust/go/perl/pascal/assembly. We should use that as a basis for where to start. We rarely sign a contract without some general idea of the tech stack we're going to use.
 
-If you're truly not sure, our `#engineering` Slack channel is a good place to pose your project's unique situation and get the Rocket hive mind to help you out.
+If you're truly not sure, our `#global-engineering` Slack channel is a good place to pose your project's unique situation and get the Dept Engineering hive mind to help you out.
 
 ## Questions to consider
 
@@ -157,7 +157,7 @@ For clients who have, or plan to have a DevOps team, we recommend deploying to A
 
 # Soapboxes
 
-What's a soapbox? It's place where Rocket Engineers can share their opinions on a particular topic. It's a way for each engineer at Rocket to share their experience with the community. These are vetted through a group pull request process within Rocket.
+What's a soapbox? It's place where Dept Engineers can share their opinions on a particular topic. It's a way for each engineer at Dept to share their experience with the community. These are vetted through a group pull request process within Dept Engineering.
 
 You can find various topics you're looking for by using github code search in this repo like so:
 ![Code Search Example](https://user-images.githubusercontent.com/392778/108128277-7cf9d180-707a-11eb-9e64-3d618aeede9b.png)
