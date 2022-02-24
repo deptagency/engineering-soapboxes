@@ -14,6 +14,7 @@
 - [Soapboxes](#soapboxes)
   - [Angular](#angular)
   - [General Software Development Best Practices](#general-software-development-best-practices)
+  - [Software Development Lifecycle Template](soapbox/sdlc/how_we_work.md)
   - [Java](#java)
   - [Node.js](#nodejs)
   - [Python](#python)
