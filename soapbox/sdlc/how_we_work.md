@@ -2,29 +2,21 @@
 
 Each client is different, but the approach to development shouldn’t be.  This is an effort to settle on a single way of doing work across clients so we have a common framework that can be improved over time.  
 
-This is a living document, feel free to comment on it.
+This is a living document, feel free to create a PR against it.
+
+## Technical specification
 
 
-[TOC]
-
-
-## Technical specification {#technical-specification}
-
-
-### Goals: Why are you writing a spec? {#goals-why-are-you-writing-a-spec}
-
-
+### Goals: Why are you writing a spec?
 
 1. Clarify your own thoughts on how build or design a part of the system (feature)
 2. Have others review and understand the design before you spend a bunch of time writing code
 3. Allow multiple developers to work on a single feature
 
 
-### Requirements: What has to be in the spec? {#requirements-what-has-to-be-in-the-spec}
+### Requirements: What has to be in the spec?
 
 Your doc should include: 
-
-
 
 1. What you understand the requirements of what you’re building to be
 2. How you plan on meeting those requirements.
@@ -35,7 +27,7 @@ If you don’t have any requirements, that’s a problem.  Sometimes, for smalle
 How do you find someone who’s already done similar work, if you don’t know anyone?  Ask on your project’s Slack channel, the #ReferencePipeline or #General Slack channels, the Client or Project lead, or your mentor.  But a quick shake of the trees should tell you whether you can use someone else’s guidance, or you have to start fresh.
 
 
-### Design {#design}
+### Design
 
 You’ll have to explain how you plan to meet each requirement.  Ideally your explanation includes some sort of visualization.  Get familiar with Google Draw or some other diagramming tool.  Visualizations are easier for people to understand.  You’ll need to get comfortable with them so you might as well start with tech specs.
 
@@ -49,33 +41,32 @@ You should be able to write the spec in a matter of hours.  Keep it simple.  Mee
 ![First, do it](https://twitter.com/pikaso_me/status/1349921172515770368/photo/1)
 
 
-
-### Risks {#risks}
+### Risks
 
 We’re always building things that depend on work that hasn’t finished yet.  Call this out.  If your feature depends on a dataset that hasn’t finished yet, say that.  If we haven’t yet gotten access to launch this feature into production, call it out.  It’s up to you to understand the risks of the feature so that you can notify your team members.  That’s how we clear roadblocks before they become a problem.  This can be as simple as a list of known dependencies at the end of your doc.
 
 
-### Notes {#notes}
+### Notes
 
 
-#### What’s it for? {#what’s-it-for}
+#### What’s it for?
 
 Anything larger than a small fix or bug.  
 
 
-#### Can I write code before finishing this? {#can-i-write-code-before-finishing-this}
+#### Can I write code before finishing this?
 
 YES!  I often need to write some prototyping code to figure out if what I’m trying to do is even workable.  Some of this code might even end up in the actual feature.  
 
 
-#### Examples {#examples}
+#### Examples
 
 These are not exhaustive.  They just happen to be examples that I think illustrate some of the points I’ve made above.  If you have a better idea or something that works better for you, do it.
 
-## Specification review {#specification-review}
+## Specification review
 
 
-### Goals: Why do the review? {#goals-why-do-the-review}
+### Goals: Why do the review? 
 
 
 
@@ -93,17 +84,17 @@ The spec writer should send out the spec beforehand with a note for everyone to 
 The spec writer should take notes (or ask someone to take notes) in the spec document.  The notes either change the document or are recorded but rejected.  Include the reason for rejection.  A note could also just be something to be aware of.
 
 
-### Follow up: When is it necessary? {#follow-up-when-is-it-necessary}
+### Follow up: When is it necessary?
 
 Unless the original spec is subject to a lot of revision, the spec should be considered finished after changes that come up during the review are addressed.
 
 
-## Scheduling work {#scheduling-work}
+## Scheduling work
 
 We prefer to use Jira to track effort and activity on our projects. 
 
 
-### How to track your activity {#how-to-track-your-activity}
+### How to track your activity
 
 Your work on the project is broken up into pieces.  You can’t work on everything at once, and you have to do some work before you can do other work.  It’s this sequence of your workflow that you need to track in Jira.  
 
@@ -114,14 +105,14 @@ We try to structure our work so that it supports a specific customer deliverable
 You don’t have to follow someone else’s breakdown on their workflow, unless you think it seems to be more efficient.  But it should be possible for the Project Lead to look at your Stories and get a pretty good sense, based on the status of your Tasks, where you’re at.
 
 
-### Epics {#epics}
+### Epics 
 
 An Epic is a customer deliverable and the work required to deliver it.  It will often last many months and require coordinating several teams.  The end-goal is something the customer uses, so there should be some consideration in planning an Epic as to who’s going to take over the operation of the thing we’re building.  
 
 A good example of an Epic would be “An Email Dashboard that consolidates data across all of the client’s ESPs.”  Another might be “Develop a Data Catalog product for use by Raybeam clients.”  In both cases we’ve got a specific deliverable with a reasonably clear “definition of done” for the Epic.  Each one requires multiple teams, and will take a long time to deliver.
 
 
-### Stories {#stories}
+### Stories
 
 “Stories” describe chunks of work that need to be completed to conclude an Epic, to some level of abstraction.  Each Story should have an attached spec that explains the requirements and a plan for the completion of the Story.  
 
@@ -136,17 +127,17 @@ Not all Stories are simple or discrete.  You have some discretion, and it’s be
 The Project Lead should be able to figure out what you’re working on by looking at your current Stories.  Ideally a Story should take no more than two weeks to complete, and better if it’s a week or less.  
 
 
-### Tasks {#tasks}
+### Tasks
 
 Tasks are bits of work that are needed to complete the Story.  Tasks should usually take a day or less.  If a task takes longer than a day, consider breaking it up.
 
 
-### Bugs {#bugs}
+### Bugs
 
 Bugs are issues found in the code.  They may take longer than a day to fix but hopefully that’s not the norm.  Bugs are about the only task that won’t be part of a Story.
 
 
-### **Pre-sprint work** {#pre-sprint-work}
+### **Pre-sprint work** 
 
 When a sprint starts, the Stories for that sprint should already be in the backlog.  Ideally, we’d have more than one sprint’s worth of Stories in the Backlog.  For that to happen, each person should:
 
@@ -158,12 +149,12 @@ When a sprint starts, the Stories for that sprint should already be in the backl
 * Be ready to estimate and assign work at the upcoming sprint meeting
 
 
-## Sprints {#sprints}
+## Sprints
 
 Sprints are units of work.  They should be 1 week long as a default.  A team could move to 2 week sprints after a couple of weeks or months if they feel comfortable and have a history of accurately estimating work.
 
 
-### Goals: What do we need sprints for? {#goals-what-do-we-need-sprints-for}
+### Goals: What do we need sprints for?
 
 
 
@@ -172,40 +163,40 @@ Sprints are units of work.  They should be 1 week long as a default.  A team cou
 * Adapt to changes in priorities quickly
 
 
-### Sprint meeting {#sprint-meeting}
+### Sprint meeting 
 
 This is a single meeting where one sprint ends and another begins.  It’s probably best to set aside 60 minutes.  Ideally, this meeting could also act as a weekly status meeting.  This meeting should include everyone who plans to work in that sprint.
 
 
-### Process: How to run the Sprint meeting {#process-how-to-run-the-sprint-meeting}
+### Process: How to run the Sprint meeting
 
 
-#### Review last sprint {#review-last-sprint}
+#### Review last sprint 
 
 What was completed and what wasn’t?  What lessons are there to learn that can apply to the new sprint?  For example, were items missed because of blockers that could also push back items in the new sprint?  Under or over estimation of work should be called out by **those that under or overestimated.**  This is not a chance to blame, but to improve.  If you thought something was going to be easy and it wasn’t, we all want to know because we may have to pick up where you left off.
 
 
-#### Pull work from Backlog into new sprint {#pull-work-from-backlog-into-new-sprint}
+#### Pull work from Backlog into new sprint
 
 Each person should pull a sprint’s worth of work.  That work might also include items from the last sprint.  The goal should be to accurately estimate one sprint’s worth of work.  You can move Tasks inside a Story into the Sprint too, instead of the entire Story.  
 
 
-#### Estimate work in the backlog {#estimate-work-in-the-backlog}
+#### Estimate work in the backlog 
 
 Part of the meeting should be used to identify about the next two sprint’s worth of work in the Backlog.  These estimates may change by the next sprint meeting, but ideally the next sprint meeting is just pulling that work in.  
 
 
-#### Announcements {#announcements}
+#### Announcements 
 
 If the Sprint meeting is being used as a weekly status meeting, use the end for announcements, including whether any is on upcoming PTO.
 
 
-#### Start the sprint {#start-the-sprint}
+#### Start the sprint 
 
 Kick it off and get to work
 
 
-### Notes {#notes}
+### Notes 
 
 
 
