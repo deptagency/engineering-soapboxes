@@ -38,7 +38,7 @@ Also, and this is important, do NOT overdesign the system.  If you need to parse
 You should be able to write the spec in a matter of hours.  Keep it simple.  Meet the requirements.  Don’t over-engineer it.  You aren’t trying to solve the whole problem at once.
 
 
-![First, do it](https://twitter.com/pikaso_me/status/1349921172515770368/photo/1)
+![first_do_it](soapbox/sdlc/first_do_it.png)
 
 
 ### Risks
