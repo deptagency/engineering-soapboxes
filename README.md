@@ -176,6 +176,7 @@ These are not meant to be comprehensive _by any means_. You may even find confli
 ## General Software Development Best Practices
 
 - [Matt M's General Soapbox](soapbox/general/theothermattm.md)
+- [Raybeam's Software Development Lifecycle Template](soapbox/general/raybeam_how_we_work.md)
 
 ## Java
 
