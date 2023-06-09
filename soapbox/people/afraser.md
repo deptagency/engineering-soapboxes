@@ -1,23 +1,23 @@
 # [Adam's](https://github.com/afraser) Working-with-humans Soapbox
 
-The purpose of this repository is to document our engineering practices, and when you ask an engineer in the trenches of a project to talk about this sort of thing they might start talking about the stack they've chosen. A stack, even at a macro scale, is an implementation detail. The good stuff comes when we ask "why" and then ask it again and again.
+As an experienced engineers we often think of our craft as being comprised of competencies surrounding design patterns, architecture, scalability, composability etc. However, the challenges we face very often require working around issues of trust, process, organizational structure, and culture.
 
-The answer always circles back to _people_.
+## Trust is the currency that allows us to do our best work.
 
-## Challenges we face as engineers very often require working around issues of trust, process, organizational structure, and culture.
-
-At Dept, the majority of our engineers have been around the block a time or two. We've seen most things built _many_ different ways, so our opinions come with a weight of experience. Regardless, we must repeatedly earn the trust of our clients. This is not always done easily, but it is a prerequisite if we wish to exceed expectations.
+The majority of our engineers have been around the block a time or two. We've seen most things built many different ways, so our opinions come with a weight of experience. Regardless, we must repeatedly earn the trust of our clients. This is not always done easily, but it is an absolutely critical component of what allows us to do our best work.
 
 Unfortunately, we often find ourselves on projects with:
 
 - Mountains of tech debt
 - Poor CI/CD
 - High-friction development process
-- An inexperienced team
+- Inexperienced teams
 - Significant over-engineering
 - Inconsistent implementation of designs
 
-It is not hyperbole to say that every engineer at Dept takes great personal pride in the _art_ of building something new, but it's hard to take pride in that art and work _around_ challenges like the ones listed above. We want to do better. We want to level up the team, pay down tech-debt, fix architectural problems at their source. We want out of meetings that are a total waste of time and we want in on the meetings that will help us build a better product.
+It is not hyperbole to say that every engineer at Dept takes great personal pride in the *art* of building something new, but it's hard to take pride in that art and work *around* challenges like the ones listed above. We want to do better. 
+
+We want to level up the team, pay down tech-debt, fix architectural problems at their source. We want out of meetings that are a total waste of time and we want in on the meetings that will help us build a better product.
 
 None of these things can realistically be approached without first building trust. So how do we do that?
 
@@ -33,11 +33,15 @@ This goes without saying, but building trust means working on what you said you'
 
 ## Explain how things made people happy or unhappy.
 
-When justifying any decision, it's rarely enough to cite "literature" or "experience" and leave it at that. People need to hear _why_. Speaking from your own prior experience about what made people (users/developers) happy or unhappy will often convince a hesitant decision maker. This is useful when arguing for a particular engineering or design decision, or when considering changes to things like scrum process or meeting format.
+This can be subtle. When weighing our decisions it’s common to hear people talk about “best practice” or cite someone vocal that works for Meta or Google. These aren’t compelling reasons.
+
+People need to hear *why*. Speaking from your own prior experience about what made people (users, developers, stakeholders) happy or unhappy will often convince a hesitant decision maker. 
+
+This is useful when arguing for a particular engineering or design decision, or when considering changes to things like scrum process or meeting format.
 
 ## Build it, then show and tell.
 
-New ideas are much more likely to get pulled in if they're already basically done. This is particularly useful on slow-moving teams.
+“Ask forgiveness not permission.” New ideas are much more likely to get pulled in if they're already basically done. This is particularly useful on slow-moving teams.
 
 ## Make developers' lives easier.
 
@@ -49,7 +53,7 @@ Get decision makers on your side and/or find a wolf pack. Communicate with and b
 
 ## Speak in terms of real users and use cases.
 
-The better you understand who is going to use the product, the better you will understand how it should be built. This is just one case where it pays to know people outside of the engineering team.
+The better you understand who is going to use the product, the better you will understand how it should be built. This is another case where it pays to know people outside of the engineering team.
 
 ## Pay attention to detail.
 
@@ -77,19 +81,19 @@ Delight developers, designers and users. Putting the work in here pays dividends
 
 ## Know when and how much to push back.
 
-> Dept Engineering: Strong opinions, loosely held. *
+***“Strong opinions, loosely held.”***
 
-\* Some held more loosely than others.
+*Some opinions held more loosely than others.
 
-This repository is a testament to those opinions that we hold a little closer to heart. Our engineers might not push back on which linter to use, but most would agree that linting is for the better. Ditto for test frameworks and testing. Our clients expect us to push back on any decision that might lead to poor product quality.
+[This repository](https://github.com/deptagency/engineering-soapboxes) is contains some opinions that we hold closer to heart. Our engineers might not push back on which linter to use, but most would agree that linting is for the better. Ditto for test frameworks and testing. Version control and CI however are a must. Our clients expect us to push back on any decision that might lead to poor product quality.
 
-Every team culture is different. Some teams expect a more passionate discourse about new ideas and decisions, others quietly adhere to a status-quo that we might not initially be aware of. Try to be sensitive to this, and always be tactful and respectful.
+Every team culture is different. Some expect a more passionate discourse about new ideas and decisions, others quietly adhere to a status-quo that we might not initially be aware of. Try to be sensitive to this.
 
 ## Be careful talking about the future.
 
-We should always be considering handoff and future travelers in the codebase, but statements like "you/we will need/want" should never be unsubstantiated. This is another place where communicating with stakeholders, designers, and anyone else upstream is going to help you make better decisions and communicate those decisions.
+Considering handoff and future travelers in the codebase is important, but statements like "We’re going to need X." should never be unsubstantiated. This is another place where communicating with stakeholders, designers, and anyone else upstream is going to help you make better decisions and communicate your rationale.
 
-eg: "The product team is working on features that will require this in V2. If we do this now we'll save ourselves the headache of changing it later."
+eg: "The product team is working on features that will require XYZ in V2, but we have an opportunity to start the work now with little extra effort."
 
 ## Consider international cultural differences.
 
